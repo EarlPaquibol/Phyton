@@ -33,3 +33,7 @@ print(dir(message))
                     #to see what it does
 print(help(str))
 print(help(str.lower))
+
+
+helloworld = "Hello world"
+print("Hello" in helloworld)

@@ -10,6 +10,7 @@ print(pig_latin)
 #define things first
 def pigLatin(string_):
     new_ = string_.split(" ", -1)
+    print(new_)
     x = 0
     total = ""
     delim = " "
@@ -24,4 +25,3 @@ def pigLatin(string_):
 
 sentence = "Dave is retarded"
 print(pigLatin(sentence))
-
