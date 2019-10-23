@@ -11,3 +11,4 @@ a = "300"
 ## error >>>>>>>  print(a + 3)
 a = int(a)   #convert string to int
 print(a+3)
+print(a+4)
