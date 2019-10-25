@@ -21,14 +21,16 @@ print(student)
 
 
 Sex = student.pop('sex')
-print(Sex)
-print(student)
+# print(Sex)
+# print(student)
 
 print(len(student)) #gets the number of keys
 print(student.keys())  #gets the keys of the dict
 print(student.values())  #gets the values of each key
-print(student.items())   #gets both keys and values by pair
+print(student.items())   #gets both keys and values by pair tuples
 
+
+# print(new_dict)
 
 for key, value in student.items():
     print(key, value)
