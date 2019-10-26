@@ -33,3 +33,7 @@ def accum(s):
 
 
 print(accum('abc'))
+
+sample = 'abc'
+for i, c in enumerate(sample):
+    print(i, c)

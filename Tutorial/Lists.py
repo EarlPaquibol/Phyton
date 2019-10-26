@@ -53,3 +53,13 @@ print(course_str)
 
 
 a = list(range(1,100))
+
+
+
+fruits = ['banana', 'apple', 'cyka']
+fruits = '-'.join(fruits)
+print(fruits)
+
+def Descending_Order(num):
+    return int(''.join(sorted(str(num), reverse=True)))
+
