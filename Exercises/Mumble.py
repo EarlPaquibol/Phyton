@@ -32,8 +32,8 @@ def accum(s):
     return '-'.join(c.upper() + c.lower() * i for i, c in enumerate(s))
 
 
-print(accum('abc'))
+print(accum('eaarl'))
 
-sample = 'abc'
-for i, c in enumerate(sample):
-    print(i, c)
+# sample = 'abc'
+# for i, c in enumerate(sample):
+#     print(i, c)
