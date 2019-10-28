@@ -36,8 +36,6 @@ print(persistence(25))
 
 
 
-
-
 # new = []
 # for e in str(total):
 #     new += [int(e)]
