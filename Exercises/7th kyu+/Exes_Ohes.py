@@ -27,7 +27,7 @@
 
 
 def xo(s):
-    return list(s.lower()).count('x') == list(s.lower()).count('o')  ##Oct 26, 2019 4am. I became a oneliner
+    return list(s.lower()).count('x') == list(s.lower()).count('o')  ##Oct 26, 2019 4am. I became a onelinerr
 
 ##THERE WAS NO NEED TO CONVERT TO LIST!!!
 def xo(s):
