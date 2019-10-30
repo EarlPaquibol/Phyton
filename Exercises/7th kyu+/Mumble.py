@@ -33,6 +33,9 @@ def accum(s):
 
 
 print(accum('eaarl'))
+name = 'E'
+a = name.lower()*5
+print(a)
 
 # sample = 'abc'
 # for i, c in enumerate(sample):
